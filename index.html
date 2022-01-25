@@ -152,20 +152,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-如何使用hexo工具搭建个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-使用hexo搭建个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2022/01/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%B7%A5%E5%85%B7%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">如何使用hexo工具搭建个人博客</a>
+      <a class="article-title" href="/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">使用hexo搭建个人博客</a>
     </h1>
   
 
         
-        <a href="/2022/01/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%B7%A5%E5%85%B7%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2022-01-24T15:17:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-01-24</time>
+        <a href="/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2022-01-25T07:10:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-01-25</time>
 </a>
         
       </header>
@@ -197,12 +197,9 @@
 <li><p>计算机-&gt;属性-&gt;高级系统配置-&gt;系统变量-&gt;新建-&gt;</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">变量名：NODE_PATH </span><br><span class="line">      </span><br><span class="line">变量值：D:\tools\nodejs\node_global\node_modules</span><br></pre></td></tr></table></figure></li>
 <li><p>计算机-&gt;属性-&gt;高级系统配置-&gt;环境变量-&gt;用户变量-&gt;编辑<code>Path</code>,添加<code>global</code>目录如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\tools\nodejs\node_global</span><br></pre></td></tr></table></figure>
-
-<p><img src="/.com//image-20220125105833195.png" alt="image-20220125105833195"></p>
-</li>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\tools\nodejs\node_global</span><br></pre></td></tr></table></figure></li>
 </ul>
-</li>
+<img src="/.com//image-20220125105833195.png" alt="image-20220125105833195" style="zoom: 67%;"></li>
 <li><p>将npm默认镜像源更换为阿里的镜像源，通过npm安装模块时使用默认镜像可能会由于网络原因导致安装模块失败，使用国内的镜像源可以避免这个问题</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
 </ul>
@@ -223,7 +220,8 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
 <p>新建完成后，blog文件夹目录如下：</p>
-<p><img src="/.com//image-20220125123937030.png" alt="image-20220125123937030"></p>
+<img src="/.com//image-20220125123937030.png" alt="image-20220125123937030" style="zoom: 80%;">
+
 <ul>
 <li><p>_config.yml =&gt; 网站的 配置 信息，您可以在此配置大部分的参数。</p>
 </li>
@@ -245,10 +243,9 @@
 <li><p>启动服务器，在终端值输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<img src="/.com//image-20220125124550073.png" alt="image-20220125124550073" style="zoom:67%;"></li>
+<img src="/.com//image-20220125124550073.png" alt="image-20220125124550073" style="zoom: 67%;"></li>
 <li><p>默认情况下，在浏览器中访问网址： <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 即可预览个人博客。</p>
-<p><img src="/.com//%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-2.png" alt="img"></p>
-</li>
+<img src="/.com//如何使用Hexo创建个人博客-2.png" alt="img" style="zoom: 50%;"></li>
 </ul>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>执行下列命令创建一篇新文章</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
@@ -301,150 +298,21 @@
 	</div>
 
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/博客//" class="article-tag-list-link color3">博客</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2022/01/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%B7%A5%E5%85%B7%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇blog文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/01/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%E6%96%87%E7%AB%A0/">我的第一篇blog文章</a>
-    </h1>
-  
-
-        
-        <a href="/2022/01/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2022-01-24T14:02:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-01-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>xxxx</p>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>xxx</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a target="_blank" rel="noopener" href="http://www.123456789.cn/">www.123456789.cn</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/01/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%E6%96%87%E7%AB%A0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/01/24/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2022/01/24/hello-world/" class="archive-article-date">
-  	<time datetime="2022-01-24T13:48:20.577Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-01-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/01/24/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
         </p>
       
 
