@@ -5,39 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 6.0.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/yuluotianhan.github.io/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/yuluotianhan.github.io/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/yuluotianhan.github.io/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/yuluotianhan.github.io/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/yuluotianhan.github.io/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/yuluotianhan.github.io/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yuluotianhan.github.io","root":"/yuluotianhan.github.io/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yuluotianhan.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="环境准备 git  node.js  查询是否安装成功  node  -v npm   -v   修改默认的全局目录（默认是装在C盘下）  新建node_global、node_cache文件夹，在命令行窗口执行以下 12345&#x2F;&#x2F;全局包目录，就在nodejs安装目录新建了个nodejs文件夹存放npm config set prefix &quot;D:&#x2F;tools&#x2F;nodejs&#x2F;node_gl">
+  <meta name="description" content="环境准备 git  node.js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用hexo搭建个人博客">
 <meta property="og:url" content="https://yuluotianhan.github.io/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="木子士心豪の博客">
-<meta property="og:description" content="环境准备 git  node.js  查询是否安装成功  node  -v npm   -v   修改默认的全局目录（默认是装在C盘下）  新建node_global、node_cache文件夹，在命令行窗口执行以下 12345&#x2F;&#x2F;全局包目录，就在nodejs安装目录新建了个nodejs文件夹存放npm config set prefix &quot;D:&#x2F;tools&#x2F;nodejs&#x2F;node_gl">
+<meta property="og:description" content="环境准备 git  node.js">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125105130222.png">
-<meta property="og:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125154939116.png">
-<meta property="og:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125123937030.png">
-<meta property="og:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125124550073.png">
-<meta property="og:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125154939117.png">
+<meta property="og:image" content="https://yuluotianhan.github.io/.io//image-20220125105130222.png">
+<meta property="og:image" content="https://yuluotianhan.github.io/.io//image-20220125154939116.png">
+<meta property="og:image" content="https://yuluotianhan.github.io/.io//image-20220125123937030.png">
+<meta property="og:image" content="https://yuluotianhan.github.io/.io//image-20220125124550073.png">
+<meta property="og:image" content="https://yuluotianhan.github.io/.io//image-20220125154939117.png">
 <meta property="article:published_time" content="2022-01-25T07:10:42.000Z">
-<meta property="article:modified_time" content="2022-01-25T15:22:32.482Z">
+<meta property="article:modified_time" content="2022-01-29T14:38:16.157Z">
 <meta property="article:author" content="木子士心豪">
 <meta property="article:tag" content="博客搭建">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://yuluotianhan.github.io/yuluotianhan.github.io/.io//image-20220125105130222.png">
+<meta name="twitter:image" content="https://yuluotianhan.github.io/.io//image-20220125105130222.png">
 
 <link rel="canonical" href="https://yuluotianhan.github.io/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
@@ -101,7 +101,7 @@
 
   <div class="site-meta">
 
-    <a href="/yuluotianhan.github.io/" class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">木子士心豪の博客</h1>
       <span class="logo-line-after"><i></i></span>
@@ -122,12 +122,12 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/yuluotianhan.github.io/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/yuluotianhan.github.io/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
   </ul>
@@ -161,7 +161,7 @@
     <link itemprop="mainEntityOfPage" href="https://yuluotianhan.github.io/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/yuluotianhan.github.io/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="木子士心豪">
       <meta itemprop="description" content="">
     </span>
@@ -180,17 +180,23 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-01-25 15:10:42 / 修改时间：23:22:32" itemprop="dateCreated datePublished" datetime="2022-01-25T15:10:42+08:00">2022-01-25</time>
+              <time title="创建时间：2022-01-25 15:10:42" itemprop="dateCreated datePublished" datetime="2022-01-25T15:10:42+08:00">2022-01-25</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-29 22:38:16" itemprop="dateModified" datetime="2022-01-29T22:38:16+08:00">2022-01-29</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/yuluotianhan.github.io/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
+                  <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
                 </span>
             </span>
 
@@ -209,6 +215,8 @@
 <li><p>git</p>
 </li>
 <li><p>node.js</p>
+<span id="more"></span>
+
 <ul>
 <li><p>查询是否安装成功</p>
 <ul>
@@ -221,7 +229,7 @@
 <li><p>新建node_global、node_cache文件夹，在命令行窗口执行以下</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//全局包目录，就在nodejs安装目录新建了个nodejs文件夹存放</span><br><span class="line">npm config set prefix &quot;D:/tools/nodejs/node_global&quot;</span><br><span class="line"></span><br><span class="line">//全局包缓存目录，就在nodejs安装目录新建了个nodejs文件夹存放</span><br><span class="line">npm config set cache &quot;D:/tools/nodejs/node_cache &quot;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/yuluotianhan.github.io/.io//image-20220125105130222.png" alt="1"></p>
+<p><img src="/.io//image-20220125105130222.png" alt="1"></p>
 </li>
 </ul>
 </li>
@@ -232,7 +240,7 @@
 <li><p>计算机-&gt;属性-&gt;高级系统配置-&gt;环境变量-&gt;用户变量-&gt;编辑<code>Path</code>,添加<code>global</code>目录如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\tools\nodejs\node_global</span><br></pre></td></tr></table></figure></li>
 </ul>
-<p><img src="/yuluotianhan.github.io/.io//image-20220125154939116.png" alt="2"></p>
+<p><img src="/.io//image-20220125154939116.png" alt="2"></p>
 </li>
 <li><p>将npm默认镜像源更换为阿里的镜像源，通过npm安装模块时使用默认镜像可能会由于网络原因导致安装模块失败，使用国内的镜像源可以避免这个问题</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
@@ -254,7 +262,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
 <p>新建完成后，blog文件夹目录如下：</p>
-<p><img src="/yuluotianhan.github.io/.io//image-20220125123937030.png" alt="3"></p>
+<p><img src="/.io//image-20220125123937030.png" alt="3"></p>
 <ul>
 <li><p>_config.yml =&gt; 网站的 配置 信息，您可以在此配置大部分的参数。</p>
 </li>
@@ -276,10 +284,10 @@
 <li><p>启动服务器，在终端值输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="/yuluotianhan.github.io/.io//image-20220125124550073.png" alt="4"></p>
+<p><img src="/.io//image-20220125124550073.png" alt="4"></p>
 </li>
 <li><p>默认情况下，在浏览器中访问网址： <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 即可预览个人博客。</p>
-<p><img src="/yuluotianhan.github.io/.io//image-20220125154939117.png" alt="5"></p>
+<p><img src="/.io//image-20220125154939117.png" alt="5"></p>
 </li>
 </ul>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>执行下列命令创建一篇新文章</p>
@@ -322,7 +330,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/yuluotianhan.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag"># 博客搭建</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag"># 博客搭建</a>
           </div>
 
         
@@ -398,19 +406,19 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/yuluotianhan.github.io/archives/">
+          <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/yuluotianhan.github.io/categories/">
+            <a href="/categories/">
         <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/yuluotianhan.github.io/tags/">
+            <a href="/tags/">
         <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
@@ -461,19 +469,19 @@
   </div>
 
   
-  <script src="/yuluotianhan.github.io/lib/anime.min.js"></script>
-  <script src="/yuluotianhan.github.io/lib/velocity/velocity.min.js"></script>
-  <script src="/yuluotianhan.github.io/lib/velocity/velocity.ui.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/yuluotianhan.github.io/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="/yuluotianhan.github.io/js/motion.js"></script>
-
-
-<script src="/yuluotianhan.github.io/js/schemes/muse.js"></script>
+<script src="/js/motion.js"></script>
 
 
-<script src="/yuluotianhan.github.io/js/next-boot.js"></script>
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
 
 
 
