@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>使用hexo搭建个人博客</title>
-    <url>/yuluotianhan/yuluotianhan.github.io/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <url>/yuluotianhan.github.io/2022/01/25/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><ul>
 <li><p>git</p>
 </li>
@@ -19,7 +19,7 @@
 <li><p>新建node_global、node_cache文件夹，在命令行窗口执行以下</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//全局包目录，就在nodejs安装目录新建了个nodejs文件夹存放</span><br><span class="line">npm config set prefix &quot;D:/tools/nodejs/node_global&quot;</span><br><span class="line"></span><br><span class="line">//全局包缓存目录，就在nodejs安装目录新建了个nodejs文件夹存放</span><br><span class="line">npm config set cache &quot;D:/tools/nodejs/node_cache &quot;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/yuluotianhan/yuluotianhan.github.io/yuluotianhan/yuluotianhan.github/image-20220125105130222.png" alt="1"></p>
+<p><img src="/yuluotianhan.github.io/.io//image-20220125105130222.png" alt="1"></p>
 </li>
 </ul>
 </li>
@@ -30,7 +30,7 @@
 <li><p>计算机-&gt;属性-&gt;高级系统配置-&gt;环境变量-&gt;用户变量-&gt;编辑<code>Path</code>,添加<code>global</code>目录如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">D:\tools\nodejs\node_global</span><br></pre></td></tr></table></figure></li>
 </ul>
-<p><img src="/yuluotianhan/yuluotianhan.github.io/yuluotianhan/yuluotianhan.github/image-20220125154939116.png" alt="2"></p>
+<p><img src="/yuluotianhan.github.io/.io//image-20220125154939116.png" alt="2"></p>
 </li>
 <li><p>将npm默认镜像源更换为阿里的镜像源，通过npm安装模块时使用默认镜像可能会由于网络原因导致安装模块失败，使用国内的镜像源可以避免这个问题</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
@@ -52,7 +52,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
 <p>新建完成后，blog文件夹目录如下：</p>
-<p><img src="/yuluotianhan/yuluotianhan.github.io/yuluotianhan/yuluotianhan.github/image-20220125123937030.png" alt="3"></p>
+<p><img src="/yuluotianhan.github.io/.io//image-20220125123937030.png" alt="3"></p>
 <ul>
 <li><p>_config.yml =&gt; 网站的 配置 信息，您可以在此配置大部分的参数。</p>
 </li>
@@ -74,10 +74,10 @@
 <li><p>启动服务器，在终端值输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="/yuluotianhan/yuluotianhan.github.io/yuluotianhan/yuluotianhan.github/image-20220125124550073.png" alt="4"></p>
+<p><img src="/yuluotianhan.github.io/.io//image-20220125124550073.png" alt="4"></p>
 </li>
 <li><p>默认情况下，在浏览器中访问网址： <a href="http://localhost:4000/">http://localhost:4000/</a> 即可预览个人博客。</p>
-<p><img src="/yuluotianhan/yuluotianhan.github.io/yuluotianhan/yuluotianhan.github/image-20220125154939117.png" alt="5"></p>
+<p><img src="/yuluotianhan.github.io/.io//image-20220125154939117.png" alt="5"></p>
 </li>
 </ul>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>执行下列命令创建一篇新文章</p>
